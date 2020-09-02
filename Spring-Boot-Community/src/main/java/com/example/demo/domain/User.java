@@ -30,7 +30,7 @@ public class User implements Serializable {
     public String email;
 
     @Column
-    private  String principal;
+    private String principal;
 
     @Column
     @Enumerated(EnumType.STRING)

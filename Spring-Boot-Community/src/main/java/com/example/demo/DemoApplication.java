@@ -33,8 +33,8 @@ public class DemoApplication {
 
             IntStream.rangeClosed(1, 200).forEach(index ->
                     boardRepository.save(Board.builder()
-                            .title("게시글"+index)
-                            .subTitle("순서"+index)
+                            .title("게시글" + index)
+                            .subTitle("순서" + index)
                             .content("컨텐츠")
                             .boardType(BoardType.free)
                             .createdDate(LocalDateTime.now())
